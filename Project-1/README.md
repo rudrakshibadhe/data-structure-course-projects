@@ -1,40 +1,107 @@
-# Project 1 – Searching and Sorting Toolkit
+# ♻️ Smart E-Waste Disassembly & Component Tracking System
 
-## Description
+## 📌 Project Overview
 
-This project is a practical implementation of fundamental Data Structures and Algorithms concepts covered in Unit 1. It demonstrates array operations, searching techniques, sorting algorithms, algorithm analysis, test cases, and program outputs using C++.
+The **Smart E-Waste Disassembly & Component Tracking System** is a C++-based system designed to manage and track electronic waste components throughout their processing lifecycle.
 
-The project focuses on understanding how different algorithms work, implementing them practically, and comparing their time and space complexity.
+The system tracks components through different stages such as **collection, inspection, classification, repair, reuse, and recycling**.
 
-## Topics Covered
+## 🎯 Objectives
 
-- Arrays
-- Abstract Data Type (ADT)
-- Linear Search
-- Binary Search
-- Bubble Sort
-- Selection Sort
-- Insertion Sort
-- Time Complexity
-- Space Complexity
+- Track electronic waste components efficiently.
+- Maintain component information and status.
+- Manage components waiting for processing.
+- Record processing history.
+- Search and update component details.
+- Manage repair, reuse, and recycling activities.
+- Handle changing component records efficiently.
 
-## Project Contents
+## ⚙️ Key Features
 
-- `src/` – C++ source code
-- `algorithms/` – Algorithms and step-by-step explanations
-- `test-cases/` – Test cases used to verify the program
-- `output/` – Sample program outputs
-- `screenshots/` – Screenshots of execution and results
-- `docs/` – Additional project documentation
+- Add new e-waste components
+- Remove components
+- Search components
+- Update component information
+- Display component records
+- Update processing stages
+- Manage processing queue
+- Maintain processing history
+- Track reuse and recycling status
+- Handle empty and boundary conditions
 
-## Objective
+## 🔄 Processing Flow
 
-To implement and understand basic searching and sorting algorithms and analyze their performance using practical examples.
+Collection → Inspection → Classification → Repair → Reuse → Recycling
 
-## Language
+## 📋 Component Information
 
-C++
+Each component record contains:
 
-## Course
+- Component ID
+- Component Name
+- Device Type
+- Condition
+- Current Stage
+- Processing Status
 
-Data Structures
+## 🛠️ Technologies Used
+
+- Programming Language: C++
+- IDE: VS Code
+- Version Control: Git & GitHub
+
+## 📁 Project Structure
+
+Project-1/
+├── README.md
+├── algorithms/
+│   └── algorithm.md
+├── src/
+│   └── main.cpp
+├── test-cases/
+│   └── test-cases.md
+├── output/
+│   └── README.md
+└── screenshots/
+    └── README.md
+
+## 🧪 Testing
+
+The system is tested for:
+
+- Component insertion
+- Component deletion
+- Component searching
+- Status updates
+- Processing operations
+- Queue operations
+- Stack operations
+- List operations
+- Empty conditions
+- Boundary conditions
+
+## ⏱️ Complexity Analysis
+
+Time and space complexity of the major operations and algorithms are documented in the `algorithms` folder.
+
+## 📸 Output & Screenshots
+
+The `output` folder contains sample execution results, while the `screenshots` folder contains screenshots of the working system.
+
+## 🚀 Future Scope
+
+- QR and barcode-based component tracking
+- Database integration
+- Real-time tracking
+- Automated component classification
+- Web-based management system
+- Mobile application
+- Recycling analytics and reports
+- Digital component lifecycle tracking
+
+## 👩‍💻 Author
+
+**Rudrakshi Badhe**
+
+Electronics & Telecommunication Engineering  
+Amrutvahini College of Engineering, Sangamner
