@@ -1,5 +1,4 @@
 ## Flowchart
-
 ```mermaid
 flowchart TD
     A([Start]) --> B[Initialize empty AVL tree]
