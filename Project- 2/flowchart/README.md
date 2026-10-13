@@ -1,4 +1,4 @@
-flowchart TD
+## flowchart TD
     A([Start]) --> B[Initialize empty AVL tree]
     B --> C[Insert elements 30, 20, 10]
     C --> D[Update node heights]
