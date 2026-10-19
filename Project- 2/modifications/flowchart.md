@@ -1,4 +1,4 @@
-flowchart TD
+```mermaidflowchart TD
     A([Start]) --> B[Initialize empty AVL tree]
     B --> C[Insert 50, 40, 30]
     C --> D[Update node heights]
@@ -14,3 +14,4 @@ flowchart TD
     L --> M[Display inorder traversal]
     M --> N[Display root node and balance factor]
     N --> O([Stop])
+```
