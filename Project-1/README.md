@@ -1,12 +1,12 @@
-# ♻️ Smart E-Waste Disassembly & Component Tracking System
+#  Smart E-Waste Disassembly & Component Tracking System
 
-## 📌 Project Overview
+## Project Overview
 
 The **Smart E-Waste Disassembly & Component Tracking System** is a C++-based system designed to manage and track electronic waste components throughout their processing lifecycle.
 
 The system tracks components through different stages such as **collection, inspection, classification, repair, reuse, and recycling**.
 
-## 🎯 Objectives
+## Objectives
 
 - Track electronic waste components efficiently.
 - Maintain component information and status.
@@ -16,7 +16,7 @@ The system tracks components through different stages such as **collection, insp
 - Manage repair, reuse, and recycling activities.
 - Handle changing component records efficiently.
 
-## ⚙️ Key Features
+## Key Features
 
 - Add new e-waste components
 - Remove components
@@ -29,11 +29,11 @@ The system tracks components through different stages such as **collection, insp
 - Track reuse and recycling status
 - Handle empty and boundary conditions
 
-## 🔄 Processing Flow
+## Processing Flow
 
 Collection → Inspection → Classification → Repair → Reuse → Recycling
 
-## 📋 Component Information
+## Component Information
 
 Each component record contains:
 
@@ -44,28 +44,13 @@ Each component record contains:
 - Current Stage
 - Processing Status
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - Programming Language: C++
 - IDE: VS Code
 - Version Control: Git & GitHub
 
-## 📁 Project Structure
-
-Project-1/
-├── README.md
-├── algorithms/
-│   └── algorithm.md
-├── src/
-│   └── main.cpp
-├── test-cases/
-│   └── test-cases.md
-├── output/
-│   └── README.md
-└── screenshots/
-    └── README.md
-
-## 🧪 Testing
+## Testing
 
 The system is tested for:
 
@@ -80,15 +65,15 @@ The system is tested for:
 - Empty conditions
 - Boundary conditions
 
-## ⏱️ Complexity Analysis
+## Complexity Analysis
 
 Time and space complexity of the major operations and algorithms are documented in the `algorithms` folder.
 
-## 📸 Output & Screenshots
+## Output & Screenshots
 
 The `output` folder contains sample execution results, while the `screenshots` folder contains screenshots of the working system.
 
-## 🚀 Future Scope
+## Future Scope
 
 - QR and barcode-based component tracking
 - Database integration
@@ -99,7 +84,7 @@ The `output` folder contains sample execution results, while the `screenshots` f
 - Recycling analytics and reports
 - Digital component lifecycle tracking
 
-## 👩‍💻 Author
+## Author
 
 **Rudrakshi Badhe**
 
