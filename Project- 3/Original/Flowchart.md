@@ -1,5 +1,4 @@
-```mermaid
-flowchart TD
+```mermaidflowchart TD
     A([START]) --> B[Initialize adjacency matrix with 0]
     B --> C[/Input number of water tanks and pipelines/]
     C --> D[/Input pipeline connections/]
